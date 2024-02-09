@@ -25,3 +25,10 @@ UTF-8
  - 0001 0000-0010 FFFF | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
 
 UTF-16 (similar)
+
+__B.py__
+
+Since the default string in python3 is now Unicode, if we encode it using 'ASCII', incompatible problem will raise.
+
+## I/O
+```__bytes__``` : called by bytes() and return a byte object. I/O using bytes provide the max flexibility, because some files cannot be decoded via any encoding method, like images, etc.
